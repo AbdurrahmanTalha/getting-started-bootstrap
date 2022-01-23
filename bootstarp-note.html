@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Custom css -->
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Bootstrap Note</title>
+</head>
+
+<body>
+
+  <h1 class="display-1">Exploring Bootstrap</h1>
+  <h2 class="display-2">Sizing</h2>
+  <p class="lead"> Easily make an element as wide or as tall with our width and height utilities.</p>
+  <div class="w-25 p-3" style="background-color: #eee;">Width 25%</div>
+  <div class="w-50 p-3" style="background-color: #eee;">Width 50%</div>
+  <div class="w-75 p-3" style="background-color: #eee;">Width 75%</div>
+  <div class="w-100 p-3" style="background-color: #eee;">Width 100%</div>
+  <div class="w-auto p-3" style="background-color: #eee;">Width auto</div>
+
+  <div style="height: 100px; background-color: rgba(255,0,0,0.1);">
+    <div class="h-25 d-inline-block" style="width: 120px; background-color: rgba(0,0,255,.1)">Height 25%</div>
+    <div class="h-50 d-inline-block" style="width: 120px; background-color: rgba(0,0,255,.1)">Height 50%</div>
+    <div class="h-75 d-inline-block" style="width: 120px; background-color: rgba(0,0,255,.1)">Height 75%</div>
+    <div class="h-100 d-inline-block" style="width: 120px; background-color: rgba(0,0,255,.1)">Height 100%</div>
+    <div class="h-auto d-inline-block" style="width: 120px; background-color: rgba(0,0,255,.1)">Height auto</div>
+  </div>
+  <h2 class="display-2">Background</h2>
+  <div class="p-3 mb-2 bg-primary text-white">.bg-primary</div>
+  <div class="p-3 mb-2 bg-secondary text-white">.bg-secondary</div>
+  <div class="p-3 mb-2 bg-success text-white">.bg-success</div>
+  <div class="p-3 mb-2 bg-danger text-white">.bg-danger</div>
+  <div class="p-3 mb-2 bg-warning text-dark">.bg-warning</div>
+  <div class="p-3 mb-2 bg-info text-dark">.bg-info</div>
+  <div class="p-3 mb-2 bg-light text-dark">.bg-light</div>
+  <div class="p-3 mb-2 bg-dark text-white">.bg-dark</div>
+  <div class="p-3 mb-2 bg-body text-dark">.bg-body</div>
+  <div class="p-3 mb-2 bg-white text-dark">.bg-white</div>
+  <div class="p-3 mb-2 bg-transparent text-dark">.bg-transparent</div>
+
+  <h2 class="display-2 mb-5">Borders</h2>
+  <div>
+    <span class="border border-primary w-100 p-5 border-1">Heyo</span>
+    <span class="border border-secondary w-100 p-5 border-2">Heyo</span>
+    <span class="border border-success w-100 p-5 border-3">Heyo</span>
+    <span class="border border-danger w-100 p-5 border-4">Heyo</span>
+    <span class="border border-warning w-100 p-5 border-5">Heyo</span>
+    <span class="border border-info w-100 p-5 border-1">Heyo</span>
+    <span class="border border-light w-100 p-5 border-2">Heyo</span>
+    <span class="border border-dark w-100 p-5 border-3">Heyo</span>
+    <span class="border border-white w-100 p-5 border-4">Heyo</span>
+  </div>
+  <h2 class="display-2 mb-5">Colors</h2>
+  <div>
+    <p class="text-primary">.text-primary</p>
+    <p class="text-secondary">.text-secondary</p>
+    <p class="text-success">.text-success</p>
+    <p class="text-danger">.text-danger</p>
+    <p class="text-warning bg-dark">.text-warning</p>
+    <p class="text-info bg-dark">.text-info</p>
+    <p class="text-light bg-dark">.text-light</p>
+    <p class="text-dark">.text-dark</p>
+    <p class="text-body">.text-body</p>
+    <p class="text-muted">.text-muted</p>
+    <p class="text-white bg-dark">.text-white</p>
+    <p class="text-black-50">.text-black-50</p>
+    <p class="text-white-50 bg-dark">.text-white-50</p>
+  </div>
+
+  <h2 class="display-2 mb-5">Display property</h2>
+  <div class="d-inline p-2 bg-primary text-white">d-inline</div>
+  <div class="d-inline p-2 bg-dark text-white">d-inline</div>
+  <h2 class="display-2 mb-5">Flex</h2>
+  <div class="d-flex p-2 bd-highlight">I'm a flexbox container!</div>
+  <div class="d-flex flex-row bd-highlight mb-3">
+    <div class="p-2 bd-highlight">Flex item 1</div>
+    <div class="p-2 bd-highlight">Flex item 2</div>
+    <div class="p-2 bd-highlight">Flex item 3</div>
+  </div>
+  <div class="d-flex flex-row-reverse bd-highlight">
+    <div class="p-2 bd-highlight">Flex item 1</div>
+    <div class="p-2 bd-highlight">Flex item 2</div>
+    <div class="p-2 bd-highlight">Flex item 3</div>
+  </div>
+  <div class="d-flex flex-column bd-highlight mb-3">
+    <div class="p-2 bd-highlight">Flex item 1</div>
+    <div class="p-2 bd-highlight">Flex item 2</div>
+    <div class="p-2 bd-highlight">Flex item 3</div>
+  </div>
+  <div class="d-flex flex-column-reverse bd-highlight">
+    <div class="p-2 bd-highlight">Flex item 1</div>
+    <div class="p-2 bd-highlight">Flex item 2</div>
+    <div class="p-2 bd-highlight">Flex item 3</div>
+  </div>
+  <h2 class="display-2 mb-5">justify</h2>
+  <div class="d-flex justify-content-start">HELLO</div>
+  <div class="d-flex justify-content-end">HELLO</div>
+  <div class="d-flex justify-content-center">HELLO</div>
+  <div class="d-flex justify-content-between">HELLO</div>
+  <div class="d-flex justify-content-around">HELLO</div>
+  <div class="d-flex justify-content-evenly">HELLO</div>
+
+  <h2 class="display-2 mb-5">Align Items</h2>
+  <div class="align-self-start">Aligned flex item</div>
+  <div class="align-self-end">Aligned flex item</div>
+  <div class="align-self-center">Aligned flex item</div>
+  <div class="align-self-baseline">Aligned flex item</div>
+  <div class="align-self-stretch">Aligned flex item</div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
